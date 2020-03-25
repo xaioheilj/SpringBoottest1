@@ -21,7 +21,7 @@ public class LoginController {
             //登录成功重定向，防止表单重复提交
             return "redirect:/main";
         }else {
-            map.put("msg","用户名或密码错误");
+            map.put("msg","用户名或密码错误12365445");
             return "login";
         }
     }
